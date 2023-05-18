@@ -31,4 +31,12 @@ class Calculadora
                 break;
             case 2:
                 resultado = numero1 - numero2;
-                break;    
+                break;
+            case 3:
+                resultado = numero1 * numero2;
+                break;
+            case 4:
+                if (numero2 != 0)
+                {
+                    resultado = numero1 / numero2;
+                }
