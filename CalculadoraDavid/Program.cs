@@ -40,3 +40,17 @@ class Calculadora
                 {
                     resultado = numero1 / numero2;
                 }
+                else
+                {
+                    Console.WriteLine("Error: No se puede dividir entre cero.");
+                    return;
+                }
+                break;
+            default:
+                Console.WriteLine("Error: Operación inválida.");
+                return;
+        }
+
+        Console.WriteLine("El resultado es: " + resultado);
+    }
+}
